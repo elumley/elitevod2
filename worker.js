@@ -2,14 +2,14 @@
 // Movies/Series metadata from GitHub, file resolution on-demand
 
 /* ------------------ config ------------------ */
-const GITHUB_BASE = "https://raw.githubusercontent.com/elumley/ELITEVOD/refs/heads/main/VODTEST.m3u";
+const GITHUB_BASE = "https://github.com/elumley/ELITEVOD/blob/main/VODTEST.m3u";
 const MOVIES_JSON = `${GITHUB_BASE}/movies.json`;
 const SERIES_JSON = `${GITHUB_BASE}/series.json`;
 const EPISODES_JSON = `${GITHUB_BASE}/episodes.json`;
 const MOVIE_CATS_JSON = `${GITHUB_BASE}/movie_categories.json`;
 const SERIES_CATS_JSON = `${GITHUB_BASE}/series_categories.json`;
 
-const FILE_BASE = "https://raw.githubusercontent.com/elumley/ELITEVOD/refs/heads/main/VODTEST.m3u";
+const FILE_BASE = "https://github.com/elumley/ELITEVOD/blob/main/VODTEST.m3u";
 
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36";
 
@@ -892,6 +892,7 @@ export default {
     }
   },
 };
+
 
 
 
