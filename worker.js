@@ -9,7 +9,7 @@ const EPISODES_JSON = `${GITHUB_BASE}/episodes.json`;
 const MOVIE_CATS_JSON = `${GITHUB_BASE}/movie_categories.json`;
 const SERIES_CATS_JSON = `${GITHUB_BASE}/series_categories.json`;
 
-const FILE_BASE = "https://a.111477.xyz";
+const FILE_BASE = "https://githubusercontent.com/elumley/ELITEVOD/refs/heads/main/VODTEST.m3u?token=GHSAT0AAAAAADSLA6HKCKKAXR5JMVVBDN3A2LJPT7Q";
 
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36";
 
@@ -892,5 +892,6 @@ export default {
     }
   },
 };
+
 
 
